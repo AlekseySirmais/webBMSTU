@@ -1,0 +1,57 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>about news</title>
+    <script type="text/javascript" src="/inserter.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+
+</head>
+<body>
+
+<h1 align="center">Новости
+
+</h1>
+
+<form action="GoHome" method="POST" role="form" align="center">
+
+    <button type="submit"> Home </button>
+</form>
+
+
+<form action="search" method="POST" role="form" align="center">
+    <input type="text" name="author" placeholder="Автор">
+    <button type="submit"> Поиск </button>
+</form>
+
+
+
+<table  border="1" cellspacing="0" align="center" >
+    <tr>
+      <td  width="150" height="50">Автор</td>
+        <td width="150" height="50">Название</td>
+    <td width="938" height="50">Текст новости</td>
+    </tr>
+</table>
+
+
+<table border="1" cellspacing="0" align="center" width="1240">
+    <colgroup>
+        <col width="150">
+        <col width="150">
+        <col width="400">
+
+
+    </colgroup>
+    <tbody id="maintable">
+
+    </tbody>
+</table>
+
+
+<h2 align="center" > <a href="addnews.jsp">Добавить новость</a>  </h2>
+
+</body>
+</html>
